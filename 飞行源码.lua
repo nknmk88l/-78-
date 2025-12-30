@@ -136,7 +136,7 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "shenmi飞行脚本 qq:943953581 ";
+	Title = "Sfi飞行脚本 qq:943953581 ";
 	Text = "开启成功 QQ群943953581 ";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
@@ -471,4 +471,5 @@ mini2.MouseButton1Click:Connect(function()
 	mini2.Visible = false
 	main.Frame.BackgroundTransparency = 0 
 	closebutton.Position =  UDim2.new(0, 0, -1, 27)
+
 end)
